@@ -24,8 +24,8 @@ class Reporter
     end
 
     def output_head
-        puts 'Called abstract method: output_head'
-    end
+        output_line(@title)
+    end   
 
     def output_body_start
         puts 'Called abstract method: output_body_start'
