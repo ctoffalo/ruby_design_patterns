@@ -1,3 +1,4 @@
+require_relative 'Formatter'
 class HTMLFormatter < Formatter
     def output_report( title, text )
         puts('<html>')
